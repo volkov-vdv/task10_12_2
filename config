@@ -1,0 +1,10 @@
+# Host parameters
+EXTERNAL_IP=10.12.80.80
+HOST_NAME=docker-vm.domain.tld
+
+# Docker parameters
+NGINX_IMAGE="nginx:1.13"
+APACHE_IMAGE="httpd:2.4"
+NGINX_PORT=17080
+NGINX_LOG_DIR=/srv/log/nginx
+
